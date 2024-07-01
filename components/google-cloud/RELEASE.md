@@ -1,5 +1,10 @@
 ## Upcoming release
+* Add support for running tasks on a `PersistentResource` (see [CustomJobSpec](https://cloud.google.com/vertex-ai/docs/reference/rest/v1beta1/CustomJobSpec)) via `persistent_resource_id` parameter on `v1.custom_job.CustomTrainingJobOp` and `v1.custom_job.create_custom_training_job_from_component`
+
+## Release 2.15.0
 * Add Gemini batch prediction support to `v1.model_evaluation.autosxs_pipeline`.
+* Add Starry Net forecasting pipeline to `preview.starry_net.starry_net_pipeline`
+* Apply latest GCPC image vulnerability resolutions (base OS and software updates).
 
 ## Release 2.14.1
 * Add staging and temp location parameters to prophet trainer component.
